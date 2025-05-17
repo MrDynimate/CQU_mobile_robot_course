@@ -1,1 +1,0 @@
-Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/slam_pkg -- -j8 -l8

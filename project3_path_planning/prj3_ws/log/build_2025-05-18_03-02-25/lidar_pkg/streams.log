@@ -1,7 +1,0 @@
-[0.008s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/src/lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg
-[0.013s] [31mCMake Error at CMakeLists.txt:16:
-[0.013s]   Parse error.  Expected a command name, got unquoted argument with text "'".
-[0.013s] 
-[0.013s] [0m
-[0.013s] -- Configuring incomplete, errors occurred!
-[0.015s] Invoked command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/src/lidar_pkg -DCMAKE_INSTALL_PREFIX=/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg
