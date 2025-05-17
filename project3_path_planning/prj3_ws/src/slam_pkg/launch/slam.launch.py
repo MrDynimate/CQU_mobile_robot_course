@@ -146,3 +146,4 @@ def generate_launch_description():
     ])
 
     return ld
+写一个gitignore文件，忽略掉一些不必要的文件和目录
