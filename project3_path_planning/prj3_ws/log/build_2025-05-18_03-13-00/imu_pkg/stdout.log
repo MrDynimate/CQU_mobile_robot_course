@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target imu_data[0m
+[35m[1mConsolidate compiler generated dependencies of target imu_behavior[0m
+[ 50%] Built target imu_behavior
+[100%] Built target imu_data
+-- Install configuration: ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/lib/imu_pkg/imu_data
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/lib/imu_pkg/imu_data" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/lib/imu_pkg/imu_behavior
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/lib/imu_pkg/imu_behavior" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/ament_index/resource_index/package_run_dependencies/imu_pkg
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/ament_index/resource_index/parent_prefix_path/imu_pkg
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/environment/path.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/environment/path.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/local_setup.bash
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/local_setup.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/local_setup.zsh
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/local_setup.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/package.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/ament_index/resource_index/packages/imu_pkg
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/cmake/imu_pkgConfig-version.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/imu_pkg/share/imu_pkg/package.xml

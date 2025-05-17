@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/slam_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/slam_pkg -- -j8 -l8
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.113s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.154s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.155s] -- Added test 'lint_cmake' to check CMake code style
+[0.155s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.155s] -- Added test 'xmllint' to check XML markup files
+[0.156s] -- Configuring done
+[0.157s] -- Generating done
+[0.158s] -- Build files have been written to: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/slam_pkg

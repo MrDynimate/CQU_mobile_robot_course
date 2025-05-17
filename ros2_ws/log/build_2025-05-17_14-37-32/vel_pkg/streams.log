@@ -1,0 +1,6 @@
+[0.008s] Invoking command in '/home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/vel_pkg -- -j8 -l8
+[0.012s] [0mCMake Error: The current CMakeCache.txt directory /home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/vel_pkg/CMakeCache.txt is different than the directory /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.019s] [0mCMake Error: The source directory "/home/dan/Projects/Mobile-Robots/ros2_ws/src/vel_pkg" does not exist.
+[0.019s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.020s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.021s] Invoked command in '/home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/vel_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/vel_pkg -- -j8 -l8

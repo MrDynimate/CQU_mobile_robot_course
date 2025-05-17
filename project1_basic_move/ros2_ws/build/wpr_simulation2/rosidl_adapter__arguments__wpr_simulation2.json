@@ -1,0 +1,6 @@
+{
+  "package_name": "wpr_simulation2",
+  "non_idl_tuples": [
+    "/home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/src/wpr_simulation2:msg/Object.msg"
+  ]
+}

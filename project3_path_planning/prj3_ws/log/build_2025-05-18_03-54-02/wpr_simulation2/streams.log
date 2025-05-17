@@ -1,0 +1,361 @@
+[0.016s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2 -- -j8 -l8
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target keyboard_vel_cmd[0m
+[0.058s] [35m[1mConsolidate compiler generated dependencies of target wpb_home_mani_sim[0m
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_c[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target ball_random_move[0m
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target 3_my_node[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target 3_publisher_node[0m
+[0.080s] [  3%] Built target wpr_simulation2__rosidl_generator_c
+[0.080s] [  6%] Built target keyboard_vel_cmd
+[0.080s] [  7%] Built target wpr_simulation2__cpp
+[0.080s] [  7%] Built target ament_cmake_python_copy_wpr_simulation2
+[0.080s] [ 10%] Built target wpb_home_mani_sim
+[0.085s] [ 12%] Built target 3_publisher_node
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target 3_subscriber_node[0m
+[0.085s] [ 15%] Built target ball_random_move
+[0.088s] [ 17%] Built target 3_my_node
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target 4_velocity_command[0m
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target 5_lidar_data[0m
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target 5_lidar_behavior[0m
+[0.099s] [35m[1mConsolidate compiler generated dependencies of target 8_waypoint_navigation[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target 6_imu_data[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target 6_imu_behavior[0m
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_image[0m
+[0.112s] [ 20%] Built target 3_subscriber_node
+[0.124s] [ 22%] Built target 5_lidar_behavior
+[0.124s] [ 25%] Built target 4_velocity_command
+[0.127s] [ 27%] Built target 5_lidar_data
+[0.127s] [ 30%] Built target 8_waypoint_navigation
+[0.127s] [ 32%] Built target 6_imu_behavior
+[0.128s] [ 35%] Built target 6_imu_data
+[0.131s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_face_detect[0m
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_follow[0m
+[0.134s] [35m[1mConsolidate compiler generated dependencies of target 9_cv_hsv[0m
+[0.138s] [ 37%] Built target 9_cv_image
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target 10_pc_data[0m
+[0.141s] [35m[1mConsolidate compiler generated dependencies of target 10_pc_objects[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target 12_fetch[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target 11_mani_ctrl[0m
+[0.156s] [35m[1mConsolidate compiler generated dependencies of target demo_nav2_client[0m
+[0.157s] [ 40%] Built target 9_cv_follow
+[0.163s] [ 43%] Built target 9_cv_hsv
+[0.163s] [ 45%] Built target 9_cv_face_detect
+[0.164s] [ 48%] Built target 11_mani_ctrl
+[0.165s] [ 50%] Built target 12_fetch
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_cpp[0m
+[0.172s] [ 53%] Built target 10_pc_data
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c[0m
+[0.174s] [ 55%] Built target 10_pc_objects
+[0.174s] [ 58%] Built target demo_nav2_client
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c[0m
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_cpp[0m
+[0.179s] [ 62%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c[0m
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_cpp[0m
+[0.184s] [ 65%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[0.185s] [ 69%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[0.188s] [ 73%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target objects_publisher[0m
+[0.196s] [ 77%] Built target wpr_simulation2__rosidl_typesupport_c
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target grab_object_sim[0m
+[0.196s] [ 81%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target 11_grab_object[0m
+[0.215s] [ 83%] Built target grab_object_sim
+[0.217s] [ 83%] Built target wpr_simulation2
+[0.217s] [ 86%] Built target 11_grab_object
+[0.222s] [ 88%] Built target objects_publisher
+[0.230s] [ 89%] Built target wpr_simulation2__py
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_generator_py[0m
+[0.244s] [ 92%] Built target wpr_simulation2__rosidl_generator_py
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_c__pyext[0m
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_introspection_c__pyext[0m
+[0.252s] [35m[1mConsolidate compiler generated dependencies of target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.260s] [ 94%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[0.261s] [ 97%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[0.262s] [100%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[0.342s] running egg_info
+[0.342s] writing wpr_simulation2.egg-info/PKG-INFO
+[0.342s] writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+[0.342s] writing top-level names to wpr_simulation2.egg-info/top_level.txt
+[0.343s] reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[0.344s] writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[0.361s] [100%] Built target ament_cmake_python_build_wpr_simulation2_egg
+[0.369s] Invoked command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2 -- -j8 -l8
+[0.370s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2
+[0.376s] -- Install configuration: ""
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[0.376s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[0.377s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv
+[0.378s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info
+[0.378s] -- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO
+[0.379s] -- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt
+[0.379s] -- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.379s] -- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.379s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.398s] Listing '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...
+[0.398s] Listing '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/config
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py
+[0.402s] -- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py
+[0.402s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/worlds
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model
+[0.403s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png
+[0.404s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae
+[0.405s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/src
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp
+[0.406s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/msg
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/maps
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client
+[0.407s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh
+[0.408s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv
+[0.409s] -- Installing: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake
+[0.409s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake
+[0.410s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml
+[0.411s] Invoked command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/wpr_simulation2

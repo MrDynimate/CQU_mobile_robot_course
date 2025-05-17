@@ -1,0 +1,4 @@
+Invoking command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg -- -j8 -l8
+Invoked command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg -- -j8 -l8
+Invoking command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg
+Invoked command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg

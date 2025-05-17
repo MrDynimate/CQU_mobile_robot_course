@@ -1,0 +1,554 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/src/wpr_simulation2/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/wpr_simulation2
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] [32mBuilding CXX object CMakeFiles/wpb_home_mani_sim.dir/src/wpb_home_mani_sim.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/keyboard_vel_cmd.dir/src/keyboard_vel_cmd.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/3_my_node.dir/demo_cpp/3_my_node.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/3_publisher_node.dir/demo_cpp/3_publisher_node.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/ball_random_move.dir/src/ball_random_move.cpp.o[0m
+[  8%] Built target ament_cmake_python_copy_wpr_simulation2
+[ 10%] [32mBuilding CXX object CMakeFiles/3_subscriber_node.dir/demo_cpp/3_subscriber_node.cpp.o[0m
+[ 10%] Built target wpr_simulation2__cpp
+[ 11%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_c.dir/rosidl_generator_c/wpr_simulation2/msg/detail/object__functions.c.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/4_velocity_command.dir/demo_cpp/4_velocity_command.cpp.o[0m
+[ 13%] [32m[1mLinking C shared library libwpr_simulation2__rosidl_generator_c.so[0m
+[ 13%] Built target wpr_simulation2__rosidl_generator_c
+[ 15%] [32mBuilding CXX object CMakeFiles/5_lidar_data.dir/demo_cpp/5_lidar_data.cpp.o[0m
+[ 16%] [32m[1mLinking CXX executable 3_my_node[0m
+[ 16%] Built target 3_my_node
+[ 17%] [32mBuilding CXX object CMakeFiles/5_lidar_behavior.dir/demo_cpp/5_lidar_behavior.cpp.o[0m
+[ 18%] [32m[1mLinking CXX executable ball_random_move[0m
+[ 20%] [32m[1mLinking CXX executable 3_publisher_node[0m
+[ 20%] Built target ball_random_move
+[ 21%] [32mBuilding CXX object CMakeFiles/6_imu_data.dir/demo_cpp/6_imu_data.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable keyboard_vel_cmd[0m
+[ 24%] [32m[1mLinking CXX executable 4_velocity_command[0m
+[ 24%] Built target 3_publisher_node
+[ 25%] [32mBuilding CXX object CMakeFiles/6_imu_behavior.dir/demo_cpp/6_imu_behavior.cpp.o[0m
+[ 25%] Built target keyboard_vel_cmd
+[ 25%] Built target 4_velocity_command
+[ 26%] [32mBuilding CXX object CMakeFiles/8_waypoint_navigation.dir/demo_cpp/8_waypoint_navigation.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/9_cv_image.dir/demo_cpp/9_cv_image.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable 3_subscriber_node[0m
+[ 29%] Built target 3_subscriber_node
+[ 30%] [32mBuilding CXX object CMakeFiles/9_cv_hsv.dir/demo_cpp/9_cv_hsv.cpp.o[0m
+[ 31%] [32m[1mLinking CXX executable 5_lidar_data[0m
+[ 32%] [32m[1mLinking CXX executable wpb_home_mani_sim[0m
+[ 32%] Built target 5_lidar_data
+[ 34%] [32mBuilding CXX object CMakeFiles/9_cv_follow.dir/demo_cpp/9_cv_follow.cpp.o[0m
+[ 34%] Built target wpb_home_mani_sim
+[ 35%] [32mBuilding CXX object CMakeFiles/9_cv_face_detect.dir/demo_cpp/9_cv_face_detect.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable 5_lidar_behavior[0m
+[ 36%] Built target 5_lidar_behavior
+[ 37%] [32mBuilding CXX object CMakeFiles/10_pc_data.dir/demo_cpp/10_pc_data.cpp.o[0m
+[ 39%] [32m[1mLinking CXX executable 6_imu_data[0m
+[ 39%] Built target 6_imu_data
+[ 40%] [32mBuilding CXX object CMakeFiles/10_pc_objects.dir/demo_cpp/10_pc_objects.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable 6_imu_behavior[0m
+[ 43%] [32m[1mLinking CXX executable 8_waypoint_navigation[0m
+[ 44%] [32m[1mLinking CXX executable 9_cv_image[0m
+[ 44%] Built target 6_imu_behavior
+[ 45%] [32mBuilding CXX object CMakeFiles/11_mani_ctrl.dir/demo_cpp/11_mani_ctrl.cpp.o[0m
+[ 45%] Built target 8_waypoint_navigation
+[ 46%] [32mBuilding CXX object CMakeFiles/12_fetch.dir/demo_cpp/12_fetch.cpp.o[0m
+[ 46%] Built target 9_cv_image
+[ 48%] [32mBuilding CXX object CMakeFiles/demo_nav2_client.dir/demo_cpp/demo_nav2_client.cpp.o[0m
+[ 49%] [32m[1mLinking CXX executable 9_cv_hsv[0m
+[ 50%] [32m[1mLinking CXX executable 11_mani_ctrl[0m
+[ 51%] [32m[1mLinking CXX executable 9_cv_follow[0m
+[ 51%] Built target 9_cv_hsv
+[ 51%] Built target 11_mani_ctrl
+[ 53%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 54%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 55%] [32m[1mLinking CXX executable demo_nav2_client[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wpr_simulation2/msg/object__type_support.cpp.o[0m
+[ 56%] Built target demo_nav2_client
+[ 58%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wpr_simulation2/msg/detail/object__type_support_c.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_cpp.so[0m
+[ 60%] Built target wpr_simulation2__rosidl_typesupport_cpp
+[ 62%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wpr_simulation2/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_c.so[0m
+[ 64%] Built target 9_cv_follow
+[ 65%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 65%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c
+[ 67%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 68%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wpr_simulation2/msg/detail/object__type_support.c.o[0m
+[ 69%] [32m[1mLinking C shared library libwpr_simulation2__rosidl_typesupport_introspection_c.so[0m
+[ 69%] Built target wpr_simulation2__rosidl_typesupport_introspection_c
+[ 70%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_c.dir/rosidl_typesupport_c/wpr_simulation2/msg/object__type_support.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_c.so[0m
+[ 72%] Built target wpr_simulation2__rosidl_typesupport_c
+[ 73%] [32mBuilding CXX object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wpr_simulation2/msg/detail/object__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/objects_publisher.dir/src/objects_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so[0m
+running egg_info
+creating wpr_simulation2.egg-info
+writing wpr_simulation2.egg-info/PKG-INFO
+writing dependency_links to wpr_simulation2.egg-info/dependency_links.txt
+writing top-level names to wpr_simulation2.egg-info/top_level.txt
+writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+reading manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+writing manifest file 'wpr_simulation2.egg-info/SOURCES.txt'
+[ 75%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_cpp
+[ 75%] Built target ament_cmake_python_build_wpr_simulation2_egg
+[ 77%] [32mBuilding CXX object CMakeFiles/grab_object_sim.dir/src/grab_object_sim.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/11_grab_object.dir/demo_cpp/11_grab_object.cpp.o[0m
+[ 79%] [32m[1mLinking CXX shared library libwpr_simulation2__rosidl_typesupport_introspection_cpp.so[0m
+[ 79%] Built target wpr_simulation2__rosidl_typesupport_introspection_cpp
+[ 79%] Built target wpr_simulation2
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target wpr_simulation2__py
+[ 82%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_generator_py.dir/rosidl_generator_py/wpr_simulation2/msg/_object_s.c.o[0m
+[ 83%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so[0m
+[ 83%] Built target wpr_simulation2__rosidl_generator_py
+[ 84%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 86%] Built target wpr_simulation2__rosidl_typesupport_fastrtps_c__pyext
+[ 87%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 88%] Built target wpr_simulation2__rosidl_typesupport_introspection_c__pyext
+[ 89%] [32mBuilding C object CMakeFiles/wpr_simulation2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 91%] Built target wpr_simulation2__rosidl_typesupport_c__pyext
+[ 92%] [32m[1mLinking CXX executable 9_cv_face_detect[0m
+[ 93%] [32m[1mLinking CXX executable 12_fetch[0m
+[ 93%] Built target 9_cv_face_detect
+[ 93%] Built target 12_fetch
+[ 94%] [32m[1mLinking CXX executable 10_pc_data[0m
+[ 94%] Built target 10_pc_data
+[ 96%] [32m[1mLinking CXX executable 10_pc_objects[0m
+[ 96%] Built target 10_pc_objects
+[ 97%] [32m[1mLinking CXX executable 11_grab_object[0m
+[ 97%] Built target 11_grab_object
+[ 98%] [32m[1mLinking CXX executable grab_object_sim[0m
+[ 98%] Built target grab_object_sim
+[100%] [32m[1mLinking CXX executable objects_publisher[0m
+[100%] Built target objects_publisher
+-- Install configuration: ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/ament_index/resource_index/rosidl_interfaces/wpr_simulation2
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.h
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.h
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__functions.c
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.h
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.h
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/library_path.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/object.hpp
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__struct.hpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__builder.hpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.hpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__traits.hpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/dds_fastrtps
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_c.h
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.c
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__type_support.cpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/include/wpr_simulation2/wpr_simulation2/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/pythonpath.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/libwpr_simulation2__rosidl_generator_py.so
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object_s.c
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/_wpr_simulation2_s.ep.rosidl_typesupport_fastrtps_c.c
+Listing '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2'...
+Compiling '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/__init__.py'...
+Listing '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg'...
+Compiling '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/__init__.py'...
+Compiling '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/msg/_object.py'...
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages/wpr_simulation2/wpr_simulation2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/libwpr_simulation2__rosidl_generator_py.so" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.idl
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/config
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/config/nav2_params.yaml
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/config/wpb_home_controller.yaml
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_persons.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_lidar.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/map_tools.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/demo_mani_ctrl.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_balls.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_head_up.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_mani.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/robocup_home_mani.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_face.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_wpb_mani.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/spawn_objects.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_table.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/world.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/slam.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_scene_1.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_simple.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/wpb_objects.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/launch/navigation.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_nav.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/7_slam.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.yaml
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.xml
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/3_pub_sub.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/8_waypoint_nav.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/demo_launch/12_home.launch.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/simple.world
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/table.world
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/robocup_home.world
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_simple.world
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/wpb_pose.world
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/worlds/light.world
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/kai_standing.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/woman.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpv3.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bed.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_lidar.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/cupboard.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bookshelft.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpr1.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_mani.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_1.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/sofa.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/red_ball.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/orange_ball.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/green_ball.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/balls/blue_ball.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/wpb_home_head_up.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/man_2.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/tea_table.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/table.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/chair.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/green_bottle.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/models/bottles/red_bottle.model
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/kai_standing.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/kai/1931_LaFeiEr_D_512.png
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bottle.stl
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/color.png
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_2/man_2.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair/Wood_Cherry_Original.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table/Wood_Cherry_Original.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft/Wood_Veneer_02.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/chair.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/table.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/fingertip.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/upperarm.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/palm.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/finger.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/forearm.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/torso.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpr1/base.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpv3/wpv3.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/tea_table/Wood_Cherry_Original.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/color.png
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/man_1/man_1.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/color.png
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/woman/woman.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/cupboard/Wood_Veneer_02.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa/Carpet_Loop_Pattern.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/sofa.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Carpet_Pattern_Squares_Multi.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bed/Wood_Bamboo.jpg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_std.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/wpb_home_mani.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/wpb_home/forearm.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/meshes/bookshelft.dae
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi.rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/objects.rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/slam.rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/pointcloud.rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/navi_3d.rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/sensor.rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/rviz/fetch.rviz
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/src
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/src/wpb_home_mani_sim.cpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/src/objects_publisher.cpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/src/grab_object_sim.cpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/src/keyboard_vel_cmd.cpp
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/src/face_detector.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/src/ball_random_move.cpp
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/msg
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/msg/Object.msg
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/maps
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/maps/.gitignore
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/face_detector.py
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/wpb_home_mani_sim" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/keyboard_vel_cmd" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/ball_random_move" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/objects_publisher" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/grab_object_sim" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_publisher_node" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/3_subscriber_node" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/4_velocity_command" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_data" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/5_lidar_behavior" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_data" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/6_imu_behavior" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/8_waypoint_navigation" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_image" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_hsv" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_follow" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/9_cv_face_detect" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_data" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/10_pc_objects" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_mani_ctrl" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/11_grab_object" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/12_fetch" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client
+-- Set runtime path of "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/lib/wpr_simulation2/demo_nav2_client" to ""
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/ament_index/resource_index/package_run_dependencies/wpr_simulation2
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/ament_index/resource_index/parent_prefix_path/wpr_simulation2
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/ament_prefix_path.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/environment/path.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.bash
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.sh
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.zsh
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/local_setup.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/package.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/ament_index/resource_index/packages/wpr_simulation2
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_cppExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/export_wpr_simulation2__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/cmake/wpr_simulation2Config-version.cmake
+-- Installing: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/wpr_simulation2/share/wpr_simulation2/package.xml

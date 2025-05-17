@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "wpr_simulation2__py",
+		"source" : "/home/dan/Projects/Mobile-Robots/ros2_ws/build/wpr_simulation2/wpr_simulation2__py"
+	}
+}

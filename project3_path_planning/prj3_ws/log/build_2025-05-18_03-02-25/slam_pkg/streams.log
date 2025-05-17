@@ -1,0 +1,21 @@
+[0.008s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/slam_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/src/slam_pkg -DCMAKE_INSTALL_PREFIX=/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/slam_pkg
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.079s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.143s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.143s] -- Detecting C compile features
+[0.143s] -- Detecting C compile features - done
+[0.146s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.207s] -- Detecting CXX compile features
+[0.208s] -- Detecting CXX compile features - done
+[0.210s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.308s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.367s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.417s] -- Added test 'lint_cmake' to check CMake code style
+[0.418s] -- Added test 'xmllint' to check XML markup files
+[0.419s] -- Configuring done
+[0.421s] -- Generating done
+[0.423s] -- Build files have been written to: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/slam_pkg

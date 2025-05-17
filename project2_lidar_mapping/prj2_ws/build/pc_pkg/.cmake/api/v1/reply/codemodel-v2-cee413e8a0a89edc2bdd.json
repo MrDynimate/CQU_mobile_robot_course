@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-81cbebc8795788e5681c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pc_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pc_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pc_data-bd7a0c414e7845d89bda.json",
+					"name" : "pc_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pc_objects::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pc_objects-3feaa4952ca51db6a968.json",
+					"name" : "pc_objects",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pc_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pc_pkg_uninstall-97ce9dcb17694e8559bc.json",
+					"name" : "pc_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-601fb091228987d309d2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/pc_pkg",
+		"source" : "/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/src/pc_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

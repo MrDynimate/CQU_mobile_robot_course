@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<robot name="blue_ball">
+<!-- base -->
+<link name="base_link">
+<visual>
+  <geometry>
+    <box size="0.001 0.001 0.001" />
+  </geometry>
+  <origin rpy = "0 0 0" xyz = "0 0 0"/>
+</visual>
+</link>
+
+  <!-- body -->
+  <link name = "body_link">
+    <visual>
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+      <origin rpy = "0 0 0" xyz = "0 0 0.15"/>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.15" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.15"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1"/>
+      <inertia ixx="0.015" ixy="0.0" ixz="0.0" iyy="0.015" iyz="0.0" izz="0.015"/>
+    </inertial>
+  </link>
+  <joint name = "base_to_body" type = "fixed">
+    <parent link = "base_link"/>
+    <child link = "body_link"/>
+    <origin rpy="0 0 0" xyz="0 0 0"/> <!--pos-->
+  </joint>
+
+<gazebo reference="body_link">
+  <material>Gazebo/Blue</material>
+</gazebo>
+
+<!-- Gazebo plugin for move -->
+<gazebo>
+  <plugin name="base_controller" filename="libgazebo_ros_planar_move.so">
+    <ros>
+      <namespace>/blue_ball</namespace>
+      <remapping>cmd_vel:=cmd_vel</remapping>
+    </ros>
+    <!-- Set control loop update rate -->
+    <update_rate>20</update_rate>
+    <!-- Set odom publish rate -->
+    <publish_rate>20</publish_rate>
+    <!-- Set if odom required -->
+    <publish_odom>false</publish_odom>
+    <publish_odom_tf>false</publish_odom_tf>
+    <!-- Frame IDs -->
+    <odometry_frame>odom</odometry_frame>
+    <robot_base_frame>base_link</robot_base_frame>
+    <!-- Set odom covariance -->
+    <covariance_x>0.0001</covariance_x>
+    <covariance_y>0.0001</covariance_y>
+    <covariance_yaw>0.01</covariance_yaw>
+  </plugin>
+</gazebo>
+
+</robot>

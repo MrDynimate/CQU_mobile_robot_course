@@ -1,0 +1,15 @@
+[0.010s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg -- -j8 -l8
+[0.045s] [ 50%] Built target lidar_data
+[0.047s] [100%] Built target lidar_behavior
+[0.063s] Invoked command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg -- -j8 -l8
+[0.064s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg
+[0.069s] -- Install configuration: ""
+[0.069s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/lib/lidar_pkg/lidar_data
+[0.069s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/lib/lidar_pkg/lidar_behavior
+[0.069s] [31mCMake Error at cmake_install.cmake:86 (file):
+[0.069s]   file INSTALL cannot find
+[0.069s]   "/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/src/lidar_pkg/launch":
+[0.069s]   No such file or directory.
+[0.069s] 
+[0.069s] [0m
+[0.071s] Invoked command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg

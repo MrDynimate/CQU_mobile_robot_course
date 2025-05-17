@@ -1,0 +1,213 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (cv_pkg) JobQueued: {'identifier': 'cv_pkg', 'dependencies': OrderedDict()}
+[0.000328] (cv_pkg) JobStarted: {'identifier': 'cv_pkg'}
+[0.004779] (cv_pkg) JobProgress: {'identifier': 'cv_pkg', 'progress': 'cmake'}
+[0.005091] (cv_pkg) JobProgress: {'identifier': 'cv_pkg', 'progress': 'build'}
+[0.005492] (cv_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/cv_pkg', '--', '-j8', '-l8'], 'cwd': '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/cv_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'dan'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dan/Projects/Mobile-Robots/ros2_ws/install/wpr_simulation2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dan'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/src'), ('TERM_PROGRAM_VERSION', '1.100.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '826'), ('SYSTEMD_EXEC_PID', '1132'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2777'), ('COLCON_PREFIX_PATH', '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install:/home/dan/Projects/Mobile-Robots/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'dan'), ('JOURNAL_STREAM', '8:13393'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dan/.local/bin:/home/dan/Install/miniconda3/condabin:/opt/ros/humble/bin:/home/dan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/dan/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/Dan-Linuxtation:@/tmp/.ICE-unix/1132,unix/Dan-Linuxtation:/tmp/.ICE-unix/1132'), ('INVOCATION_ID', 'bd5dfda900ed4edda71b459552d8e4fb'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7303ce111d.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/dan/data'), ('AMENT_PREFIX_PATH', '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/cv_pkg:/home/dan/Projects/Mobile-Robots/ros2_ws/install/wpr_simulation2:/home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/dan/Install/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/cv_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/dan/Install/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dan/Projects/Mobile-Robots/ros2_ws/install/wpr_simulation2/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/cv_pkg:/home/dan/Projects/Mobile-Robots/ros2_ws/install/wpr_simulation2:/home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg:/opt/ros/humble')]), 'shell': False}
+[0.022570] (cv_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099895] (-) TimerEvent: {}
+[0.101035] (cv_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.120979] (cv_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.122470] (cv_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.126012] (cv_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.131734] (cv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.139007] (cv_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.158307] (cv_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.159201] (cv_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199992] (-) TimerEvent: {}
+[0.222054] (cv_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.250984] (cv_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.267608] (cv_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.276147] (cv_pkg) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.299277] (cv_pkg) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.300051] (-) TimerEvent: {}
+[0.305591] (cv_pkg) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.321702] (cv_pkg) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.321885] (cv_pkg) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.343332] (cv_pkg) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.349503] (cv_pkg) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.368360] (cv_pkg) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.368533] (cv_pkg) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.400162] (-) TimerEvent: {}
+[0.500401] (-) TimerEvent: {}
+[0.600655] (-) TimerEvent: {}
+[0.700907] (-) TimerEvent: {}
+[0.801199] (-) TimerEvent: {}
+[0.901461] (-) TimerEvent: {}
+[1.001726] (-) TimerEvent: {}
+[1.012640] (cv_pkg) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.021120] (cv_pkg) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.047504] (cv_pkg) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.048168] (cv_pkg) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.079464] (cv_pkg) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.101791] (-) TimerEvent: {}
+[1.179436] (cv_pkg) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.183024] (cv_pkg) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.186587] (cv_pkg) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.201876] (-) TimerEvent: {}
+[1.279141] (cv_pkg) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.301966] (-) TimerEvent: {}
+[1.375625] (cv_pkg) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.402078] (-) TimerEvent: {}
+[1.468470] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[1.469025] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[1.469597] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[1.470097] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[1.470599] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[1.471195] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[1.471397] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[1.471605] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[1.472151] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[1.472682] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[1.473281] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[1.473772] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[1.474420] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[1.475036] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[1.475593] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[1.476231] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[1.476787] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[1.477381] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[1.478004] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[1.478570] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[1.479044] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[1.479229] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[1.479441] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[1.480007] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[1.480594] (cv_pkg) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[1.482655] (cv_pkg) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.502161] (-) TimerEvent: {}
+[1.503153] (cv_pkg) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.504013] (cv_pkg) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.504068] (cv_pkg) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.566183] (cv_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.602258] (-) TimerEvent: {}
+[1.608669] (cv_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.608856] (cv_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.608909] (cv_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.609360] (cv_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.610106] (cv_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.610224] (cv_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.610531] (cv_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.611081] (cv_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.647911] (cv_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.657741] (cv_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/cv_pkg\n'}
+[1.680646] (cv_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cv_image_node\x1b[0m\n'}
+[1.686930] (cv_pkg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/cv_face_detect_node.dir/src/cv_face_detect.cpp.o\x1b[0m\n'}
+[1.687117] (cv_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/cv_follow_node.dir/src/cv_follow.cpp.o\x1b[0m\n'}
+[1.687464] (cv_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/pc_data_node.dir/src/pc_data.cpp.o\x1b[0m\n'}
+[1.687942] (cv_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cv_hsv_node.dir/src/cv_hsv.cpp.o\x1b[0m\n'}
+[1.691833] (cv_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/src/cv_pkg/src/cv_face_detect.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[1.692044] (cv_pkg) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<rclcpp/rclcpp.hpp>\x1b[m\x1b[K\n'}
+[1.692109] (cv_pkg) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.692145] (cv_pkg) StderrLine: {'line': b'compilation terminated.\n'}
+[1.692185] (cv_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable cv_image_node\x1b[0m\n'}
+[1.692391] (cv_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cv_face_detect_node.dir/build.make:76: CMakeFiles/cv_face_detect_node.dir/src/cv_face_detect.cpp.o] Error 1\n'}
+[1.692621] (cv_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/cv_face_detect_node.dir/all] Error 2\n'}
+[1.692690] (cv_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.702366] (-) TimerEvent: {}
+[1.802615] (-) TimerEvent: {}
+[1.902919] (-) TimerEvent: {}
+[2.003231] (-) TimerEvent: {}
+[2.103584] (-) TimerEvent: {}
+[2.203911] (-) TimerEvent: {}
+[2.214781] (cv_pkg) StdoutLine: {'line': b'[ 60%] Built target cv_image_node\n'}
+[2.304021] (-) TimerEvent: {}
+[2.404339] (-) TimerEvent: {}
+[2.504613] (-) TimerEvent: {}
+[2.604923] (-) TimerEvent: {}
+[2.705228] (-) TimerEvent: {}
+[2.805561] (-) TimerEvent: {}
+[2.905894] (-) TimerEvent: {}
+[3.006209] (-) TimerEvent: {}
+[3.106519] (-) TimerEvent: {}
+[3.206832] (-) TimerEvent: {}
+[3.307144] (-) TimerEvent: {}
+[3.407461] (-) TimerEvent: {}
+[3.507782] (-) TimerEvent: {}
+[3.608096] (-) TimerEvent: {}
+[3.708415] (-) TimerEvent: {}
+[3.808746] (-) TimerEvent: {}
+[3.909060] (-) TimerEvent: {}
+[4.009376] (-) TimerEvent: {}
+[4.109715] (-) TimerEvent: {}
+[4.210035] (-) TimerEvent: {}
+[4.310349] (-) TimerEvent: {}
+[4.410620] (-) TimerEvent: {}
+[4.510922] (-) TimerEvent: {}
+[4.611236] (-) TimerEvent: {}
+[4.711565] (-) TimerEvent: {}
+[4.811868] (-) TimerEvent: {}
+[4.912179] (-) TimerEvent: {}
+[5.012489] (-) TimerEvent: {}
+[5.112822] (-) TimerEvent: {}
+[5.213147] (-) TimerEvent: {}
+[5.313470] (-) TimerEvent: {}
+[5.413755] (-) TimerEvent: {}
+[5.514024] (-) TimerEvent: {}
+[5.614281] (-) TimerEvent: {}
+[5.714540] (-) TimerEvent: {}
+[5.814780] (-) TimerEvent: {}
+[5.915040] (-) TimerEvent: {}
+[6.015342] (-) TimerEvent: {}
+[6.115595] (-) TimerEvent: {}
+[6.215861] (-) TimerEvent: {}
+[6.316118] (-) TimerEvent: {}
+[6.416352] (-) TimerEvent: {}
+[6.516592] (-) TimerEvent: {}
+[6.616826] (-) TimerEvent: {}
+[6.717088] (-) TimerEvent: {}
+[6.817324] (-) TimerEvent: {}
+[6.917573] (-) TimerEvent: {}
+[7.017831] (-) TimerEvent: {}
+[7.118128] (-) TimerEvent: {}
+[7.218429] (-) TimerEvent: {}
+[7.257105] (cv_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable cv_hsv_node\x1b[0m\n'}
+[7.318556] (-) TimerEvent: {}
+[7.418871] (-) TimerEvent: {}
+[7.519157] (-) TimerEvent: {}
+[7.619449] (-) TimerEvent: {}
+[7.719757] (-) TimerEvent: {}
+[7.762437] (cv_pkg) StdoutLine: {'line': b'[ 70%] Built target cv_hsv_node\n'}
+[7.819849] (-) TimerEvent: {}
+[7.873744] (cv_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable cv_follow_node\x1b[0m\n'}
+[7.919963] (-) TimerEvent: {}
+[8.020234] (-) TimerEvent: {}
+[8.120510] (-) TimerEvent: {}
+[8.220837] (-) TimerEvent: {}
+[8.321122] (-) TimerEvent: {}
+[8.351264] (cv_pkg) StdoutLine: {'line': b'[ 80%] Built target cv_follow_node\n'}
+[8.421226] (-) TimerEvent: {}
+[8.521510] (-) TimerEvent: {}
+[8.621773] (-) TimerEvent: {}
+[8.722055] (-) TimerEvent: {}
+[8.822299] (-) TimerEvent: {}
+[8.922572] (-) TimerEvent: {}
+[9.022822] (-) TimerEvent: {}
+[9.123082] (-) TimerEvent: {}
+[9.223329] (-) TimerEvent: {}
+[9.323621] (-) TimerEvent: {}
+[9.423880] (-) TimerEvent: {}
+[9.524112] (-) TimerEvent: {}
+[9.624367] (-) TimerEvent: {}
+[9.724654] (-) TimerEvent: {}
+[9.824901] (-) TimerEvent: {}
+[9.925131] (-) TimerEvent: {}
+[10.025398] (-) TimerEvent: {}
+[10.125678] (-) TimerEvent: {}
+[10.225922] (-) TimerEvent: {}
+[10.230409] (cv_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable pc_data_node\x1b[0m\n'}
+[10.326033] (-) TimerEvent: {}
+[10.426275] (-) TimerEvent: {}
+[10.526535] (-) TimerEvent: {}
+[10.626824] (-) TimerEvent: {}
+[10.727128] (-) TimerEvent: {}
+[10.827491] (-) TimerEvent: {}
+[10.927765] (-) TimerEvent: {}
+[11.028072] (-) TimerEvent: {}
+[11.128335] (-) TimerEvent: {}
+[11.228627] (-) TimerEvent: {}
+[11.238821] (cv_pkg) StdoutLine: {'line': b'[ 90%] Built target pc_data_node\n'}
+[11.239650] (cv_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.241122] (cv_pkg) CommandEnded: {'returncode': 2}
+[11.248069] (cv_pkg) JobEnded: {'identifier': 'cv_pkg', 'rc': 2}
+[11.258534] (-) EventReactorShutdown: {}

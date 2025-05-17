@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/imu_data.dir/src/imu_data.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_behavior.dir/src/imu_behavior.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable imu_data[0m
+[100%] [32m[1mLinking CXX executable imu_behavior[0m
+[100%] Built target imu_data
+[100%] Built target imu_behavior

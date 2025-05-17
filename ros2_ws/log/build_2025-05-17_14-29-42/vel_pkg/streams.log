@@ -1,0 +1,23 @@
+[0.010s] Invoking command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg -- -j8 -l8
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target vel_node[0m
+[0.097s] [100%] Built target vel_node
+[0.116s] Invoked command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg -- -j8 -l8
+[0.126s] Invoking command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg
+[0.138s] -- Install configuration: ""
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/lib/vel_pkg/vel_node
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/ament_index/resource_index/package_run_dependencies/vel_pkg
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/ament_index/resource_index/parent_prefix_path/vel_pkg
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/ament_prefix_path.sh
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/ament_prefix_path.dsv
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/path.sh
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/path.dsv
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.bash
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.sh
+[0.140s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.zsh
+[0.141s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.dsv
+[0.141s] -- Installing: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/package.dsv
+[0.141s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/ament_index/resource_index/packages/vel_pkg
+[0.141s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/cmake/vel_pkgConfig.cmake
+[0.141s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/cmake/vel_pkgConfig-version.cmake
+[0.141s] -- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/package.xml
+[0.144s] Invoked command in '/home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dan/Projects/Mobile-Robots/ros2_ws/build/vel_pkg

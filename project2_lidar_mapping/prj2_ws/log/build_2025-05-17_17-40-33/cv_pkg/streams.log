@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/cv_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/src/cv_pkg -DCMAKE_INSTALL_PREFIX=/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/cv_pkg
+[0.039s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.142s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.152s] -- Detecting CXX compiler ABI info
+[0.207s] -- Detecting CXX compiler ABI info - done
+[0.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.213s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.216s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.309s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.367s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.395s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.397s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.402s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.410s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.450s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.452s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.498s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.516s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.541s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.546s] -- Looking for pthread.h
+[0.600s] -- Looking for pthread.h - found
+[0.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.647s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.648s] -- Found Threads: TRUE  
+[0.681s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.700s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.709s] -- Found OpenCV: /usr (found version "4.5.4") 
+[0.711s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.760s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.760s] -- Configured cppcheck include dirs: 
+[0.760s] -- Configured cppcheck exclude dirs and/or files: 
+[0.761s] -- Added test 'lint_cmake' to check CMake code style
+[0.761s] -- Added test 'uncrustify' to check C / C++ code style
+[0.761s] -- Configured uncrustify additional arguments: 
+[0.762s] -- Added test 'xmllint' to check XML markup files
+[0.763s] -- Configuring done
+[0.765s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.765s]   Cannot find source file:
+[0.765s] 
+[0.765s]     src/cv_image_node.cpp
+[0.765s] 
+[0.765s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.765s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.765s] 
+[0.765s] [0m
+[0.767s] [31mCMake Error at CMakeLists.txt:17 (add_executable):
+[0.767s]   No SOURCES given to target: cv_image_node
+[0.767s] 
+[0.767s] [0m
+[0.767s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.775s] Invoked command in '/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/build/cv_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/src/cv_pkg -DCMAKE_INSTALL_PREFIX=/home/dan/Projects/Mobile-Robots/project2_lidar_mapping/prj2_ws/install/cv_pkg

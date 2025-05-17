@@ -1,0 +1,17 @@
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/lib/lidar_pkg/lidar_data
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/lib/lidar_pkg/lidar_behavior
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/ament_index/resource_index/package_run_dependencies/lidar_pkg
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/ament_index/resource_index/parent_prefix_path/lidar_pkg
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.sh
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/environment/ament_prefix_path.dsv
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/environment/path.sh
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/environment/path.dsv
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/local_setup.bash
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/local_setup.sh
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/local_setup.zsh
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/local_setup.dsv
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/package.dsv
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/ament_index/resource_index/packages/lidar_pkg
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig.cmake
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/cmake/lidar_pkgConfig-version.cmake
+/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/install/lidar_pkg/share/lidar_pkg/package.xml

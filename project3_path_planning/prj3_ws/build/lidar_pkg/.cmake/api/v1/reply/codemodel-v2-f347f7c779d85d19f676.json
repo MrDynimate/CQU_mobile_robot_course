@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9ce513f9596d8cc8f7cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lidar_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_behavior::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_behavior-eda11a0a7eea3639246a.json",
+					"name" : "lidar_behavior",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_data-bbcfed99c770267a64af.json",
+					"name" : "lidar_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_pkg_uninstall-7640099ec935b94e707d.json",
+					"name" : "lidar_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f6658e5ae802aa72f32e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/lidar_pkg",
+		"source" : "/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/src/lidar_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

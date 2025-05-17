@@ -1,0 +1,7 @@
+[0.010s] Invoking command in '/home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/imu_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project3_path_planning/prj3_ws/build/imu_pkg -- -j8 -l8
+[0.047s] [ 25%] [32mBuilding CXX object CMakeFiles/imu_data.dir/src/imu_data.cpp.o[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_behavior.dir/src/imu_behavior.cpp.o[0m
+[5.471s] [ 75%] [32m[1mLinking CXX executable imu_data[0m
+[5.697s] [100%] [32m[1mLinking CXX executable imu_behavior[0m
+[5.759s] [100%] Built target imu_data
+[5.970s] [100%] Built target imu_behavior

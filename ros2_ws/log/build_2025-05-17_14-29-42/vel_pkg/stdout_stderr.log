@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target vel_node[0m
+[100%] Built target vel_node
+-- Install configuration: ""
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/lib/vel_pkg/vel_node
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/ament_index/resource_index/package_run_dependencies/vel_pkg
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/ament_index/resource_index/parent_prefix_path/vel_pkg
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/path.sh
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/environment/path.dsv
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.bash
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.sh
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.zsh
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/local_setup.dsv
+-- Installing: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/package.dsv
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/ament_index/resource_index/packages/vel_pkg
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/cmake/vel_pkgConfig.cmake
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/cmake/vel_pkgConfig-version.cmake
+-- Up-to-date: /home/dan/Projects/Mobile-Robots/ros2_ws/install/vel_pkg/share/vel_pkg/package.xml
