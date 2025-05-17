@@ -1,5 +1,0 @@
-[0.007s] Invoking command in '/home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/wpr_simulation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/wpr_simulation2 -- -j8 -l8
-[0.012s] [0mCMake Error: The current CMakeCache.txt directory /home/dan/Projects/Mobile-Robots/project1_basic_move/ros2_ws/build/wpr_simulation2/CMakeCache.txt is different than the directory /home/dan/Projects/Mobile-Robots/ros2_ws/build/wpr_simulation2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.021s] [0mCMake Error: The source directory "/home/dan/Projects/Mobile-Robots/ros2_ws/src/wpr_simulation2" does not exist.
-[0.021s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.021s] gmake: *** [Makefile:1731: cmake_check_build_system] Error 1
