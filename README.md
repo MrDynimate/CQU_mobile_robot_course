@@ -2,22 +2,28 @@
 
 本仓库包含重庆大学移动机器人课程的三个ROS2项目实践，涵盖机器人运动控制、视觉处理、SLAM建图等内容。所有项目均基于 ROS2 与 Gazebo 进行开发与仿真，适用于 Ubuntu 22.04 + ROS2 Humble 环境。
 
+This repository contains three ROS2 project assignments from the Mobile Robots course at Chongqing University, covering topics such as robot motion control, visual processing, and SLAM mapping. All projects are developed and simulated using ROS2 and Gazebo, and are compatible with Ubuntu 22.04 + ROS2 Humble.
+
 ---
 
 ## 📂 仓库结构
 
 ```
 CQU_mobile_robot_course/
-├── project1_basic_move/ # 作业一：机器人底盘运动控制
-│ └── ros2_ws/
-│ └── src/vel_pkg/
-├── project2_lidar_mapping/ # 作业二：视觉 OpenCV
-│ └── prj2_ws/
-│ └── src/{cv_pkg, pc_pkg}
-├── project3_path_planning/ # 作业三：SLAM建图 + 多源感知
-│ └── prj3_ws/
-│ └── src/{imu_pkg, lidar_pkg, slam_pkg}
+├── project1_basic_move/      # 作业一：机器人底盘运动控制
+│   ├── ros2_ws/
+│   └── src/vel_pkg/
+├── project2_lidar_mapping/   # 作业二：视觉 OpenCV
+│   ├──  prj2_ws/
+│   └── src/{cv_pkg, pc_pkg}
+├── project3_path_planning/   # 作业三：SLAM建图 + 多源感知
+│   ├── prj3_ws/
+│   └── src/{imu_pkg, lidar_pkg, slam_pkg}
+├── project4_navgation/       # 作业四：自动导航
+│   ├── prj4_ws/
+│   └── src/{imu_pkg, lidar_pkg, slam_pkg}
 └── README.md
+
 ```
 
 ---
@@ -67,6 +73,12 @@ source install/setup.bash
 # 运行节点请根据 vel_node.cpp 内容手动 ros2 run
 ```
 
+### 🌈 成果展示
+
+展示机器人在地图上以0.1米/秒的速度向柜子靠近
+
+![机器人基础移动实现](./images/hw1-task1-screenshot1.gif)
+
 ---
 
 ## 👁 作业二：视觉处理与点云识别
@@ -91,11 +103,15 @@ ros2 launch wpr_simulation2 wpb_table.launch.py
 ros2 run pc_pkg pc_objects
 ```
 
+### 🌈 成果展示
+
+
+![机器人摄像头视角](./images/hw2-task2-screenshot1.png)
 ---
 
 ## 🗺️ 作业三：SLAM建图与多传感器融合
 
-- **功能**：实现建图、路径规划、IMU与雷达数据融合。
+- **功能**：实现建图、IMU与雷达数据融合。
 - **包**：
   - `imu_pkg`:IMU数据处理
   - `lidar_pkg`:雷达数据处理
@@ -118,8 +134,53 @@ ros2 launch slam_pkg slam.launch.py
 ros2 run wpr_simulation2 keyboard_vel_cmd
 ```
 
+### 🌈 成果展示
+
+通过遥控节点控制机器人使用雷达对房间进行建模
+![建图过程](./images/hw3-task3-screencast1.gif)
+
+将建模好的地图进行导出
+![建图过程](./images/hw3-task3-map1.pgm)
+
 ---
 
+## 🗺️ 作业四：基于SLAM地图的导航实现
+
+- **功能**：实现航点路径导航与自主路径规划
+- **包**：
+  - `imu_pkg`:IMU数据处理
+  - `lidar_pkg`:雷达数据处理
+  - `slam_pkg`:启动 SLAM 模块（含 slam.launch.py）
+  - `nav_pkg`:启动navigation模块
+
+### ✅ 使用方法
+
+```bash
+cd project4_navgation/prj4_ws
+colcon build
+source install/setup.bash
+
+# 第一个终端：启动仿真环境
+ros2 launch wpr_simulation2 robocup_home.launch.py
+
+# 第二个终端：启动SLAM建图
+ros2 launch nav_pkg waypoint_nav.launch.py
+
+# 第三个终端：手动控制
+ros2 run nav_pkg waypoint_navigation
+```
+
+RViz2中需要通过“2D Pose Estimate”对机器人位置进行初始化，使用Nav2 Goal设置目标点
+
+### 🌈 成果展示
+
+左侧展示雷达感知及地图融合，右侧为gazebo仿真视角
+![路径规划过程](./images/hw4-task3-screenshot2.png)
+
+将作业三中建模获得的地图导入，实现初始位置到目标点的自主路径规划
+![路径规划过程](./images/hw4-task3-screencast1.gif)
+
+---
 ## ⚙️ 环境要求
 
 - **操作系统**：Ubuntu 22.04 LTS

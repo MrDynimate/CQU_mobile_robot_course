@@ -1,0 +1,68 @@
+# =====================
+# ROS2/C++ 项目忽略规则
+# =====================
+
+# 编译生成目录
+build/
+install/
+log/
+
+# 系统/IDE文件
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# 二进制和临时文件
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.o
+*.a
+*.la
+*.lo
+*.orig
+*.rej
+
+# 日志文件
+*.log
+*.jou
+*.tmp
+
+# 打包文件
+*.deb
+*.rpm
+*.tar.gz
+*.zip
+
+# 文档生成
+docs/_build/
+docs/html/
+
+# ROS2特定忽略
+*.rosinstall
+*.repos
+colcon-*
+
+# Gazebo相关
+~/.gazebo/
+*.world~
+*.sdf~
+
+# 数据集/大文件
+*.bag
+*.pcd
+*.ply
+*.csv
+*.png
+*.jpg
+*.mp4
+
+# =====================
+# Python项目额外规则
+# =====================
+__pycache__/
+*.egg-info/
+dist/
