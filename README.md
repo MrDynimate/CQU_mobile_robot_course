@@ -143,7 +143,8 @@ ros2 run wpr_simulation2 keyboard_vel_cmd
 
 将建模好的地图进行导出
 
-<img src="./images/hw3-task3-map1.png" alt="地图展示" style="max-width:100%; height:auto;" />
+<img src="./images/hw3-task3-map1.png" alt="地图展示" width="900" />
+
 
 <!-- ![地图展示](./images/hw3-task3-map1.png) -->
 
