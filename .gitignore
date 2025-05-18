@@ -56,9 +56,7 @@ colcon-*
 *.pcd
 *.ply
 *.csv
-*.png
-*.jpg
-*.mp4
+
 
 # =====================
 # Python项目额外规则

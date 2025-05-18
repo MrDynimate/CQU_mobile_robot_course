@@ -105,8 +105,9 @@ ros2 run pc_pkg pc_objects
 
 ### 🌈 成果展示
 
-
+展示机器人视角所见
 ![机器人摄像头视角](./images/hw2-task2-screenshot1.png)
+
 ---
 
 ## 🗺️ 作业三：SLAM建图与多传感器融合
@@ -140,11 +141,11 @@ ros2 run wpr_simulation2 keyboard_vel_cmd
 ![建图过程](./images/hw3-task3-screencast1.gif)
 
 将建模好的地图进行导出
-![建图过程](./images/hw3-task3-map1.pgm)
+![地图展示](./images/hw3-task3-map1.png)
 
 ---
 
-## 🗺️ 作业四：基于SLAM地图的导航实现
+## ✈️ 作业四：基于SLAM地图的导航实现
 
 - **功能**：实现航点路径导航与自主路径规划
 - **包**：
@@ -175,7 +176,7 @@ RViz2中需要通过“2D Pose Estimate”对机器人位置进行初始化，�
 ### 🌈 成果展示
 
 左侧展示雷达感知及地图融合，右侧为gazebo仿真视角
-![路径规划过程](./images/hw4-task3-screenshot2.png)
+![导航空间展示](./images/hw4-task3-screenshot2.png)
 
 将作业三中建模获得的地图导入，实现初始位置到目标点的自主路径规划
 ![路径规划过程](./images/hw4-task3-screencast1.gif)
@@ -219,4 +220,3 @@ source ~/.bashrc
 ## 📄 License
 
 This project is licensed under the terms of the MIT License. See the [LICENSE](./LICENSE) file for details.
-
